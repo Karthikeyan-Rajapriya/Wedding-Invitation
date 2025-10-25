@@ -1382,6 +1382,32 @@
             text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
         }
 
+        .calendar-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.1rem;
+            background: rgba(255, 255, 255, 0.6);
+            color: #8B4513;
+            padding: 0.15rem 0.35rem;
+            border-radius: 12px;
+            text-decoration: none;
+            font-size: 0.5rem;
+            font-weight: 400;
+            font-family: 'Playfair Display', serif;
+            box-shadow: 0 2px 8px rgba(218, 165, 32, 0.15);
+            transition: all 0.3s ease;
+            border: 1px solid rgba(218, 165, 32, 0.25);
+            backdrop-filter: blur(8px);
+        }
+
+        .calendar-btn:hover {
+            background: rgba(255, 255, 255, 0.5);
+            transform: translateY(-1px);
+            box-shadow: 0 2px 8px rgba(218, 165, 32, 0.15);
+            border-color: rgba(218, 165, 32, 0.25);
+            color: #DAA520;
+        }
+        
         .venue-card {
             background: rgba(255, 255, 255, 0.6);
             padding: 0.8rem;
@@ -1541,7 +1567,16 @@
                         <div class="venue" style="font-size: 0.75rem;">Mangalya Kalyana Mandapam, Chittur, Kerala</div>
                     </div>
                     
-                    <div class="ornamental-divider" style="margin: 0.2rem 0; font-size: 0.9rem;">❀</div>
+                    <div style="margin: 0.3rem 0; text-align: center; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+                    <div class="ornamental-divider" style="font-size: 0.9rem;">❀</div>
+                    <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Karthikeyan%20%26%20Rajapriya%20Wedding%20Reception%20%26%20Muhurtham&dates=20251130/20251202&details=Pre-wedding%20Celebration:%0A🗓️%20Nov%2030th,%20from%206:00%20PM%20onwards%0A📍%20Location%0AMangalya%20Kalyana%20Mandapam,%20Chittur,%20Kerala%0A[%20https://maps.app.goo.gl/So1EdQ262E7Bi9mL9%20]%0A%0AWedding%20Ceremony%0A🗓️%20Dec%2001st,%20Morning%20(6:00%20AM%20–%207:30%20AM)%0A📍%20Location%0AMangalya%20Kalyana%20Mandapam,%20Chittur,%20Kerala%0A[%20https://maps.app.goo.gl/So1EdQ262E7Bi9mL9%20]%0A%0AReception%0A🗓️%20Dec%2001st,%20from%206:00%20PM%20onwards%0A📍%20MC%20Thirumana%20Mandapam,%20Palladam,%20Tamil%20Nadu%0A[Location:%20https://maps.app.goo.gl/WExrvthepcQRQgxu5]&location=Mangalya%20Kalyana%20Mandapam,%20Chittur,%20Kerala%20and%20MC%20Thirumana%20Mandapam,%20Palladam,%20Tamil%20Nadu" 
+                       target="_blank" 
+                       rel="noopener noreferrer"
+                       class="calendar-btn">
+                        🗓️ Save to Calendar
+                    </a>
+                    <div class="ornamental-divider" style="font-size: 0.9rem;">❀</div>
+                </div>
                     
                     <div class="event-card" style="margin: 0.3rem 0; padding: 0.5rem;">
                         <div class="date-time" style="font-size: 1rem; margin-bottom: 0.2rem; font-weight: 700; color: #8B4513;">December <span style="font-size: 1.2rem;">1</span><span style="font-size: 0.7rem;">st</span>, <span style="font-size: 1.2rem;">2025</span></div>
